@@ -1,1 +1,2 @@
-* * * * * python "/home/tpk/projects/cron/cex.py"
+# uses local python installation and logs error to c.log
+* * * * * ~/anaconda3/bin/python ~/projects/cron/cex.py >> ~/projects/cron/c.log 2>&1
