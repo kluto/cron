@@ -10,3 +10,16 @@
 # */5 * * * * ~/my_script.sh
 # or
 # 0,5,10,15,20,25,30,35,40,45,50,55 * * * * ~/my_script.sh
+
+
+# Remove everything from crontab
+$ crontab -r
+
+# List crontab contents
+$ crontab -l
+
+# Load file to crontab
+$ crontab cronfile.txt
+
+# Edit crontab
+$ crontab -e
